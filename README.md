@@ -6,3 +6,4 @@
    
 ### Part 2
 1. Answers in part2.txt
+2. Was a fun hunt, question 10 was the hardest one haha
