@@ -29,4 +29,4 @@
 2. Choose a time that works for everyone.
 3. Use a daily stand-up template to guide the meeting.
 4. Prepare for the meeting by knowing what you will say beforehand.
-5. For distributed teams, have everyone join a video stand-up on their own computer to level the playing field.
+5. For distributed teams, have everyone join a video stand-up on their own computer to level the playing field. 
