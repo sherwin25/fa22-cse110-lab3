@@ -1,0 +1,183 @@
+/* Color */
+body {
+    color: rgb(51, 51, 51);
+    background-color: #f0f0f0;
+  }
+  
+  header {
+    color: hsl(0, 0%, 20%);
+  }
+  
+  /* Background */
+  main {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  
+  /* Unit */
+  h1 {
+    font-size: 2.5rem; /* relative unit */
+  }
+  
+  h2 {
+    font-size: 24px; /* absolute unit */
+  }
+  
+  /* Box Model */
+  /* Margin */
+  section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Padding */
+  section {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  
+  /* Borders */
+  section {
+    border-style: solid;
+    border-color: hsla(210, 50%, 85%, 1);
+    border-width: 1px;
+    border-radius: 5px;
+  }
+  
+  /* Text */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Display */
+  nav {
+    background-color: blue;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  /* Sizing */
+  section {
+    max-width: 800px;
+  }
+  
+  /* Position */
+  section {
+    position: relative;
+  }
+  
+  section#dia {
+    position: relative;
+    top: 20px;
+  }
+  
+  /* Pseudo-class */
+  button:hover {
+    background-color: lightgray;
+  }
+  
+  /* Layouts */
+  /* Flexbox */
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  /* Grid */
+  .main-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+
+  #date {
+    background-color: #f0f0f0;
+    margin: 0;
+    position: static;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+  }
+  
+  /* Fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* CSS Selectors */
+  /* Class Selector */
+  .fav-color {
+    color: orange;
+  }
+  
+  /* ID Selector */
+  #attendance {
+    background-color: lightyellow;
+  }
+  
+  /* Universal Selector */
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Element Selector */
+  h1 {
+    font-weight: bold;
+  }
+  
+  /* Attribute Selector */
+  input[type="text"] {
+    border-color: blue;
+  }
+  
+  /* Pseudo-class Selector */
+  p:hover {
+    color: red;
+  }
+  
+  /* Selector List */
+  header, nav {
+    background-color: lightblue;
+  }
+  
+  /* Combinators */
+  /* Descendant Combinator */
+  main section {
+    padding: 20px;
+  }
+  
+  /* Child Combinator */
+  main > section {
+    margin-bottom: 30px;
+  }
+  
+  /* General sibling combinator */
+  h2 ~ p {
+    font-size: 0.9em;
+  }
+  
+  /* Adjacent sibling combinator */
+  h2 + p {
+    font-size: 0.8em;
+  }
+  
+  /* Combining Two Selectors */
+  h2.fav-color {
+    font-weight: bold;
+  }
+  
